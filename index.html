@@ -8,9 +8,27 @@
      <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/2489740162.js" crossorigin="anonymous"></script>
     <!-- daisy ui and tailwind css -->
+     <!-- google font -->
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+     <!-- google font -->
+      <style>
+        .font-smithers {
+      font-family: "Playfair Display", Georgia, serif;
+    }
+        .font-rig-like {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 1000;
+        }
+        .font-Pacifico{
+            font-family: 'Pacifico', cursive;
+            
+        }
+      </style>
 </head>
-<body>
+<body class="bg-[#F0EDEF]">
     <!-- header -->
      <header>
 <!-- navbar -->
@@ -129,7 +147,7 @@
    <img src="img/signature 2.png" alt="signature 2">
  </div>
  <!-- img -->
- <h1 class="font-bold text-white lg:text-[54px] md:text-[35px] text-[30px] text-center mb-8">
+ <h1 class="text-white lg:text-[54px] md:text-[35px] font-rig-like text-[30px] text-center mb-8">
   We are here to help you if you need a <br> Bendigo Plumber who will jump straight in <br> and get the job done.
  </h1>
 <!-- flex -->
@@ -316,12 +334,12 @@ All Plumbing Services
      </section>
      <!-- section  -->
       <!-- man section -->
-<section class="bg-[#E6E1E4] pt-16">
+<section class="bg-[#E6E1E4] py-20">
   <div class="flex justify-center">
    <img src="img/signature 3.png" alt="signature 3">
  </div>
  <!-- img -->
- <h1 class="font-extrabold text-[#020F29] lg:text-[54px] md:text-[35px] text-[30px] text-center mb-8">
+ <h1 class="font-rig-like text-[#020F29] lg:text-[54px] md:text-[35px] text-[30px] text-center mb-8">
   Our team are well known for their dedication <br> to the plumbing industry and they are just <br> all-round good people!
  </h1>
  <!-- flex -->
@@ -330,7 +348,7 @@ All Plumbing Services
      <div class="grid xl:grid-cols-2  grid-cols-1 gap-10">
       <!-- man card -->
        <div class="flex w-full max-w-[650px] flex-col rounded-xl overflow-hidden bg-white sm:flex-row">
-  <div class="sm:w-[50%]">
+  <div class="sm:w-[45%]">
     <img
       src="img/jay.jpg"
       alt="Jay"
@@ -357,7 +375,7 @@ All Plumbing Services
       <!-- man card -->
       <!-- man card -->
        <div class="flex w-full max-w-[650px] flex-col rounded-xl overflow-hidden bg-white sm:flex-row">
-  <div class="sm:w-[50%]">
+  <div class="sm:w-[45%]">
     <img
       src="img/will.jpg"
       alt="will"
@@ -382,7 +400,7 @@ All Plumbing Services
       <!-- man card -->
       <!-- man card -->
        <div class="flex w-full max-w-[650px] flex-col rounded-xl overflow-hidden bg-white sm:flex-row">
-  <div class="sm:w-[50%]">
+  <div class="sm:w-[45%]">
     <img
       src="img/tom.jpg"
       alt="tom"
@@ -407,7 +425,7 @@ All Plumbing Services
       <!-- man card -->
       <!-- man card -->
        <div class="flex w-full max-w-[650px] flex-col rounded-xl overflow-hidden bg-white sm:flex-row">
-  <div class="sm:w-[50%]">
+  <div class="sm:w-[45%]">
     <img
       src="img/jess admin.jpg"
       alt="Jess -Admin"
@@ -437,5 +455,593 @@ All Plumbing Services
  <!-- flex -->
 </section>
       <!-- man section -->
+       <!-- commitment section -->
+<section class="relative py-20 overflow-hidden mb-16">
+  <!-- background image -->
+  <img
+    src="img/commitment.jpeg"
+    alt="Wilson Plumbing trucks"
+    class="absolute inset-0 h-full w-full object-cover object-center"
+  />
+
+  <!-- dark overlay -->
+  <div class="absolute inset-0 bg-[#06142d]/85"></div>
+
+  <!-- content -->
+  <div class="relative flex flex-col items-center justify-center px-5 text-center">
+      <img src="img/signature4.png" alt="signature4">
+
+    <h2 class="font-extrabold text-white lg:text-[64px] md:text-[35px] text-[30px] font-rig-like text-center mb-8">
+      Humble, kind and capable: <br> we’re the plumbers who care.
+    </h2>
+
+    <a
+      href="#"
+      class="text-[18px] font-medium bg-white rounded-full px-6 py-2 text-[#C79340]"
+    >
+      LEARN MORE ABOUT US
+    </a>
+  </div>
+</section>
+<!-- commitment section -->
+ <!-- testimonials section -->
+<section class="bg-[#e9e4e6] px-5 py-20">
+  <div class="relative mx-auto max-w-[1600px] overflow-hidden">
+
+    <!-- radio controls -->
+    <input id="review-1" type="radio" name="review-slider" class="peer/r1 hidden" checked />
+    <input id="review-2" type="radio" name="review-slider" class="peer/r2 hidden" />
+    <input id="review-3" type="radio" name="review-slider" class="peer/r3 hidden" />
+    <input id="review-4" type="radio" name="review-slider" class="peer/r4 hidden" />
+
+    <!-- slider track -->
+    <div class="flex w-[400%] transition-transform duration-500 ease-in-out peer-checked/r1:translate-x-0 peer-checked/r2:-translate-x-1/4 peer-checked/r3:-translate-x-2/4 peer-checked/r4:-translate-x-3/4">
+
+      <!-- slide 1 -->
+      <div class="grid w-1/4 grid-cols-1 gap-8 px-2 sm:grid-cols-2 lg:grid-cols-4">
+        <!-- card -->
+        <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              Highly recommend Wilson Plumbing. Jay was fantastic to deal with, friendly and professional. Arrived early and finished the job perfectly.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Nicole V.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              MAIDEN GULLY
+            </p>
+          </div>
+        </div>
+
+        <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-16 text-[24px] leading-[38px] text-[#07142f]">
+              Great business. Always super friendly and professional. Highly recommend them.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Kristal E.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              GOLDEN SQUARE
+            </p>
+          </div>
+        </div>
+
+        <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              These guys have installed a new oven, instantaneous hot water system and a new roof at my place. They are so easy to deal with. 5 stars.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Cameron J.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              NORTH BENDIGO
+            </p>
+          </div>
+        </div>
+
+        <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              Wonderful experience with a professional team that were efficient and punctual, highly recommend and happy to support this local business.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] leading-none text-[#07142f] font-Pacifico">
+              Phil R.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              MARONG
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- slide 2 -->
+      <div class="grid w-1/4 grid-cols-1 gap-8 px-2 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-12 text-[24px] leading-[38px] text-[#07142f]">
+              Fantastic! Cannot fault! Thank you for your prompt service. Very very easy to communicate with and work with.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">Mel G.</h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">Maiden Gully</p>
+          </div>
+        </div>
+
+        <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-12 text-[24px] leading-[38px] text-[#07142f]">
+              Wilsons plumbing went out of their way to help us, as they were technically closed. Reliable, friendly, quality service. Five stars!
+            </p>
+          </div>
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">Jessica L.</h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">Eaglehawk</p>
+          </div>
+        </div>
+
+        <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-12 text-[24px] leading-[38px] text-[#07142f]">
+              Fast, efficient, and friendly service. Plus they take their boots off at the door AND clean up after themselves!
+            </p>
+          </div>
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">Ann M.</h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">Strathdale</p>
+          </div>
+        </div>
+
+        <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-12 text-[24px] leading-[38px] text-[#07142f]">
+              Great communication, follow up and prompt service. Quality of work was outstanding. Can’t recommend Wilson Plumbing Bendigo enough.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">Danielle V.</h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">Bendigo</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- slide 3 and 4, same design -->
+      <div class="w-1/4 px-2">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- slide3 card1 -->
+            <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              Jayson has been my ‘got to’ plumber for several years now… they are prompt, polite and very courteous.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Kathleen C.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              California Gully
+            </p>
+          </div>
+        </div>
+          <!-- slide3 card1 -->
+          <!-- slide3 card1 -->
+            <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              Excellent service and follow up. A plumber that returns contact and turns up. A gem!
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Maree S.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              Bendigo
+            </p>
+          </div>
+        </div>
+          <!-- slide3 card1 -->
+          <!-- slide3 card1 -->
+            <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              Sandhurst Homes has used Wilson Plumbing Bendigo as our preferred plumbers for years. They are efficient, proficient and so helpful.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Amanda O.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              Sandhurst Homes
+            </p>
+          </div>
+        </div>
+          <!-- slide3 card1 -->
+          <!-- slide3 card1 -->
+            <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              I have been using Wilson Plumbing for years. Jay and the team are always ready and willing to help, highly recommended.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Mary-Ann P.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              Strathfieldsaye
+            </p>
+          </div>
+        </div>
+          <!-- slide3 card1 -->
+        </div>
+      </div>
+
+      <div class="w-1/4 px-2">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- slide3-4 card1 -->
+            <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              Very happy with the prompt service, great people to deal with. Definitely recommend Wilson Plumbing Bendigo.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Kaity D.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              Maiden Gully
+            </p>
+          </div>
+        </div>
+          <!-- slide4 card1 -->
+          <!-- slide4 card2 -->
+            <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              The tradesmen were very polite, and informative and clearly experienced in his work. A good job all round.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Bob S.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              Spring Gully
+            </p>
+          </div>
+        </div>
+          <!-- slide4 card2 -->
+          <!-- slide4 card3 -->
+            <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              Love my extra taps, now I can do the whole garden easily. Thanks Wilson Plumbing Bendigo.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Arthur N.
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+             Kangaroo Flat
+            </p>
+          </div>
+        </div>
+          <!-- slide4 card3 -->
+          <!-- slide4 card4 -->
+            <div class="flex min-h-[575px] flex-col items-center justify-between rounded-md bg-white px-12 py-10 text-center">
+          <div>
+            <p class="text-[54px] font-bold leading-none text-[#b8bec8]">“</p>
+            <p class="mt-8 text-[24px] leading-[38px] text-[#07142f]">
+              Both our oven and hot water service gave up at once. Jayson arranged a new hot water service to be installed within days. Great guys.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-[42px] font-Pacifico leading-none text-[#07142f]">
+              Jenny B.
+
+            </h4>
+            <p class="mt-1 text-[18px] font-bold tracking-[3px] text-[#5d6471]">
+              Bendigo
+            </p>
+          </div>
+        </div>
+          <!-- slide4 card4 -->
+        </div>
+      </div>
+    </div>
+
+    <!-- dots and arrow -->
+    <div class="mt-12 flex items-center justify-center gap-6 peer-checked/r1:[&_.d1]:bg-[#07142f] peer-checked/r2:[&_.d2]:bg-[#07142f] peer-checked/r3:[&_.d3]:bg-[#07142f] peer-checked/r4:[&_.d4]:bg-[#07142f]">
+      <label for="review-1" class="d1 h-[10px] w-[10px] cursor-pointer rounded-full bg-[#8d929c]"></label>
+      <label for="review-2" class="d2 h-[10px] w-[10px] cursor-pointer rounded-full bg-[#8d929c]"></label>
+      <label for="review-3" class="d3 h-[10px] w-[10px] cursor-pointer rounded-full bg-[#8d929c]"></label>
+      <label for="review-4" class="d4 h-[10px] w-[10px] cursor-pointer rounded-full bg-[#8d929c]"></label>
+    </div>
+  </div>
+</section>
+<!-- testimitonals -->
+<!-- maiden gully -->
+ <section class="py-16 xl:px-10 lg:px-4 md:px-6 px-2">
+
+    <div class="flex justify-center">
+        <img src="img/singnature5.png" alt="singnature5">
+    </div>
+    <h1 class="text-[#8F4100] font-rig-like lg:text-[54px] md:text-[35px] text-[30px] text-center mb-8">
+        Giving back is in our bones. We love Bendigo and love to offer support when we can.
+    </h1>
+
+  <div class="bg-white rounded-xl shadow-md overflow-hidden">
+
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+
+      <!-- Left Image -->
+      <div class="flex items-center justify-center p-10 border-b lg:border-b-0 lg:border-r border-gray-200">
+
+        <img
+          src="img/maiden gully.jpeg"
+          alt="maiden gully"
+          class="object-contain">
+
+      </div>
+
+      <!-- Right Content -->
+      <div class="p-8 lg:p-14 flex flex-col justify-center">
+        <h2 class="text-3xl lg:text-4xl font-bold text-[#08254b] leading-tight">
+          Proud Supporters of the Maiden Gully YCW Eagles Football Club
+        </h2>
+        <div class="flex items-center justify-between gap-2 mt-5">
+            <p class="text-[18px] font-bold text-[#8F4100]">
+                2020 - Current
+            </p>
+             <div class="xl:w-[470px] lg:w-[200px] md:w-[500px] h-[2px] bg-[#b5660c] rounded-full"></div>
+        </div>
+        <p class="mt-8 text-gray-600 text-lg leading-8">
+          We love being a part of grassroots junior footy in Bendigo.
+          We sponsor our local club to help make sure the kids have the
+          supplies they need.
+        </p>
+
+        <a href="#"
+           class="inline-flex items-center gap-2 mt-10 text-[#b5660c] font-bold uppercase tracking-wider">
+          Learn More
+          <span class="text-xl">→</span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Bottom Button -->
+
+  <div class="text-center mt-12">
+
+    <a href="#"
+       class="inline-block bg-[#9A4800] text-white px-6 py-4 rounded-full font-bold text-[16px] uppercase tracking-wider transition">
+      More Community Projects
+    </a>
+
+  </div>
+
+</section>
+<!-- maiden gully -->
+<section class="xl:px-[100px] lg:px-2 md:px-6 py-16">
+     <!-- form section  -->
+  <section class="w-full bg-white rounded-xl py-10 sm:py-12 lg:py-9">
+      <div class="mx-auto grid max-w-[1280px] grid-cols-1 gap-10 px-5 sm:px-8 lg:grid-cols-[1fr_1px_0.94fr] lg:gap-8 lg:px-12">
+        <div class="flex flex-col justify-between gap-12 lg:min-h-[694px]">
+          <div>
+            <p class="mb-3 text-[40px] leading-none text-[#d09437] [font-family:'Brush_Script_MT',cursive] sm:text-[45px]">
+              Quick Quote
+            </p>
+
+            <div class="relative max-w-[560px]">
+              <h1 class="text-[30px] font-extrabold leading-[1.28] tracking-normal text-[#00133f] sm:text-[34px] lg:text-[34px]">
+                Send us a message and we will get back to you within 48 hours.
+              </h1>
+            </div>
+
+            <p class="mt-7  text-[18px] text-[#030b28] sm:text-[20px] lg:text-[20px]">
+              Every customer is important to us, so we always respond to quote requests within 48 hours (business days). Some requests need a site visit and appraisal, but you can rest assured we&rsquo;ll be in touch as soon as we can and get things moving.
+            </p>
+          </div>
+
+          <div class="space-y-3 text-[18px] font-bold text-[#00133f] sm:text-[19px]">
+            <a class="flex items-center gap-3 transition hover:text-[#d09437]" href="tel:0401670677">
+              <span class="grid h-4 w-4 place-items-center text-[18px] font-normal text-slate-400"><i class="fa-solid fa-mobile-screen-button"></i></span>
+              <span>0401 670 677</span>
+            </a>
+            <a class="flex items-center gap-3 transition hover:text-[#d09437]" href="mailto:hello@wilsonplumbingbendigo.com">
+              <span class="grid h-4 w-4 place-items-center text-[18px] font-normal text-slate-400"><i class="fa-regular fa-paper-plane"></i></span>
+              <span class="break-all">hello@wilsonplumbingbendigo.com</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hidden w-px bg-slate-300 lg:block"></div>
+
+        <div class="lg:pl-1">
+          <h2 class="mb-5 text-[24px] font-black leading-tight text-[#00133f]">Quote Request Form</h2>
+
+          <form class="space-y-1.5">
+            <div class="grid grid-cols-1 gap-1.5 sm:grid-cols-2">
+              <label class="relative block">
+                <input
+                  class="h-12 w-full rounded bg-[#f5f3f4] px-4 pr-9 text-[16px] text-[#17203d] outline-none placeholder:text-[#4f566d] focus:ring-2 focus:ring-[#d09437]"
+                  type="text"
+                  placeholder="Your name"
+                  required
+                />
+                <span class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500">*</span>
+              </label>
+
+              <label class="relative block">
+                <input
+                  class="h-12 w-full rounded bg-[#f5f3f4] px-4 pr-9 text-[16px] text-[#17203d] outline-none placeholder:text-[#4f566d] focus:ring-2 focus:ring-[#d09437]"
+                  type="email"
+                  placeholder="Email address"
+                  required
+                />
+                <span class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500">*</span>
+              </label>
+
+              <label class="relative block">
+                <input
+                  class="h-12 w-full rounded bg-[#f5f3f4] px-4 pr-9 text-[16px] text-[#17203d] outline-none placeholder:text-[#4f566d] focus:ring-2 focus:ring-[#d09437]"
+                  type="tel"
+                  placeholder="Phone number"
+                  required
+                />
+                <span class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500">*</span>
+              </label>
+
+              <select
+                class="h-12 w-full rounded bg-[#f5f3f4] px-4 text-[16px] text-[#030b28] outline-none focus:ring-2 focus:ring-[#d09437]"
+                required
+              >
+                <option selected disabled>I am in need of... (choose)</option>
+                <option>General plumbing</option>
+                <option>Hot water service</option>
+                <option>Blocked drain</option>
+                <option>Gas fitting</option>
+              </select>
+            </div>
+
+            <input
+              class="h-12 w-full rounded bg-[#f5f3f4] px-4 text-[16px] text-[#17203d] outline-none placeholder:text-[#4f566d] focus:ring-2 focus:ring-[#d09437]"
+              type="text"
+              placeholder="Property address"
+            />
+
+            <textarea
+              class="min-h-[128px] w-full resize-y rounded bg-[#f5f3f4] px-4 py-3 text-[16px] text-[#17203d] outline-none placeholder:text-[#4f566d] focus:ring-2 focus:ring-[#d09437]"
+              placeholder="Please describe in detail what you need help with..."
+            ></textarea>
+
+            <div class="flex flex-col gap-3 rounded bg-[#f5f3f4] px-4 py-3 text-[16px] text-[#030b28] sm:min-h-12 sm:flex-row sm:items-center sm:justify-between sm:py-2">
+              <span>Add photos, plans, schematics, or other files (optional)</span>
+              <label class="rounded-full bg-[#636770] px-2 py-2 text-[14px] font-bold text-white transition">
+                CHOOSE FILES
+                <input class="sr-only" type="file" multiple />
+              </label>
+            </div>
+
+            <fieldset class="rounded bg-[#f5f3f4] px-4 py-3">
+              <legend class="text-[16px] text-[#030b28]">How soon do you need us?</legend>
+              <div class="grid grid-cols-1 gap-3 text-[14px] text-[#030b28] sm:grid-cols-3">
+                <label class="flex items-center gap-2">
+                  <input class="h-3.5 w-3.5 accent-[#d09437]" type="radio" name="urgency" />
+                  <span>ASAP</span>
+                </label>
+                <label class="flex items-center gap-2">
+                  <input class="h-3.5 w-3.5 accent-[#d09437]" type="radio" name="urgency" />
+                  <span>Next week</span>
+                </label>
+                <label class="flex items-center gap-2">
+                  <input class="h-3.5 w-3.5 accent-[#d09437]" type="radio" name="urgency" />
+                  <span>Not in a rush</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="rounded bg-[#f5f3f4] px-4 py-3">
+              <legend class="text-[16px] text-[#030b28]">What are your preferred days?</legend>
+              <div class="grid grid-cols-1 gap-x-12 gap-y-4 text-[14px] text-[#030b28] sm:grid-cols-3">
+                <label class="flex items-center gap-2">
+                  <input class="h-3.5 w-3.5 rounded accent-[#d09437]" type="checkbox" />
+                  <span>Monday</span>
+                </label>
+                <label class="flex items-center gap-2">
+                  <input class="h-3.5 w-3.5 rounded accent-[#d09437]" type="checkbox" />
+                  <span>Tuesday</span>
+                </label>
+                <label class="flex items-center gap-2">
+                  <input class="h-3.5 w-3.5 rounded accent-[#d09437]" type="checkbox" />
+                  <span>Wednesday</span>
+                </label>
+                <label class="flex items-center gap-2">
+                  <input class="h-3.5 w-3.5 rounded accent-[#d09437]" type="checkbox" />
+                  <span>Thursday</span>
+                </label>
+                <label class="flex items-center gap-2">
+                  <input class="h-3.5 w-3.5 rounded accent-[#d09437]" type="checkbox" />
+                  <span>Friday</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="flex flex-col gap-6 pt-5 sm:flex-row sm:items-center sm:justify-between">
+              <div class="flex h-[70px] w-full max-w-[284px] items-center justify-between border border-slate-300 bg-white px-3 shadow-sm">
+                <label class="flex items-center gap-3 text-[14px] text-[#030b28]">
+                  <input class="h-6 w-6 appearance-none border border-slate-500 bg-white checked:bg-[#d09437]" type="checkbox" />
+                  <span>I'm not a robot</span>
+                </label>
+                <div class="text-center text-[9px] uppercase text-slate-500">
+                  <div class="mx-auto mb-1 grid h-7 w-7 place-items-center rounded bg-[#4f6edb] text-xl font-black leading-none text-white">
+                    <button>
+                        <img src="img/ReCAPTCHA_icon.svg-removebg-preview.png" alt="ReCAPTCHA_icon">
+                    </button>
+                  </div>
+                  Recaptcha
+                </div>
+              </div>
+
+              <button
+                class="rounded-full bg-[#d09437] px-6 py-4 text-[16px] font-bold tracking-[0.14em] text-white transition hover:bg-[#bd812e]"
+                type="submit"
+              >
+                SEND REQUEST
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+ <!-- form section  -->
+</section>
 </body>
 </html>
