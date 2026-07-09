@@ -1,0 +1,426 @@
+ <!-- header -->
+     <header>
+<!-- navbar -->
+<div class="navbar bg-[#F2EEF1]">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li>
+          <a class="text-[18px] font-bold">Plumbing</a>
+          <ul class="p-2">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </li>
+        <li><a class="text-[18px] font-bold">About Us</a></li>
+        <li><a class="text-[18px] font-bold">Contact Us</a></li>
+      </ul>
+    </div>
+    <a class="hover:text-white">
+      <img class="w-[250px] hover:bg-white" src="img/logo-removebg-preview.png" alt="">
+    </a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li>
+        <details>
+          <summary class="text-[20px] font-bold">Plumbing</summary>
+          <ul class="p-2">
+            <li class="text-[22px] font-bold"><a>Submenu 1</a></li>
+            <li class="text-[22px] font-bold"><a>Submenu 2</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><a class="text-[20px] font-bold">About Us</a></li>
+      <li><a class="text-[20px] font-bold">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="mr-4 text-[20px] font-bold bg-[#636770] rounded-full px-6 py-2 text-white">0401 670 677</a>
+    <a class="text-[20px] font-bold bg-[#C79340] rounded-full px-6 py-2 text-white">Get a Quote</a>
+  </div>
+</div>
+<!-- navbar -->
+ <!-- hero -->
+<section class="bg-[#f4f0f2] px-5 py-20 sm:py-24 lg:py-28">
+  <div class=" text-center">
+
+    <!-- small script text -->
+    <div class="flex justify-center mb-4">
+      <img src="img/banner_signature-removebg-preview.png" alt="">
+    </div>
+
+    <!-- heading -->
+    <h1 class=" text-[38px] font-black leading-[1.12] text-[#07142f] sm:text-[52px] lg:text-[64px]">
+      Friendly and helpful local <br> Bendigo plumbers you can trust.
+    </h1>
+
+    <!-- description -->
+    <p class=" mt-5  text-[16px] leading-[26px] text-[#344055] sm:text-[17px]">
+      We are a small team of Bendigo plumbers that you can count on. Based in Maiden Gully, we are <br>
+      known for being knowledgeable, friendly, hardworking and humble. You’ll feel comfortable with our <br>
+      professional team of experienced plumbers in your home.
+    </p>
+
+    <!-- buttons -->
+    <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <a class="mr-4 text-[20px] font-bold bg-[#020F29] rounded-full px-6 py-2 text-white">0401 670 677</a>
+    <a class="text-[20px] font-bold bg-[#C79340] rounded-full px-6 py-2 text-white">Get a Quote</a>
+    </div>
+
+  </div>
+</section>
+<!-- hero -->
+     </header>
+    <!-- header -->
+     <!-- section  -->
+     <section class="bg-[#06142d]">
+       <!-- team image section -->
+<section class="relative bg-[#f4f0f2] pt-12 sm:pt-16">
+  <div class="absolute bottom-0 left-0 h-[78%] w-full bg-[#06142d]"></div>
+  <div class="relative z-10 mx-auto max-w-[950px] px-4 sm:px-6 pb-12 sm:pb-16">
+    <div class="overflow-hidden rounded-[4px] shadow-sm">
+      <img
+        src="img/team-plumbing.jpg"
+        alt="Wilson Plumbing team"
+        class="h-[260px] w-full object-cover object-center sm:h-[380px] lg:h-[500px]"
+      />
+
+      <div class="bg-[#222d42] px-4 py-4 text-center">
+        <p class="text-[11px] font-bold leading-5 text-white sm:text-[13px]">
+          Will, Jayson and Tom are ready to help you with all your plumbing needs!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- team image section -->
+ <!-- img -->
+ <div class="flex justify-center">
+   <img src="img/signature 2.png" alt="signature 2">
+ </div>
+ <!-- img -->
+ <h1 class="font-bold text-white lg:text-[54px] md:text-[35px] text-[30px] text-center mb-8">
+  We are here to help you if you need a <br> Bendigo Plumber who will jump straight in <br> and get the job done.
+ </h1>
+<!-- flex -->
+ <div class="flex justify-center mb-8 py-20 px-5">
+  <!-- grid -->
+   <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
+    <!-- card1 -->
+    <div class="card bg-[#1f2b40] shadow-xl">
+  <div class="card-body text-center pt-16">
+    <h3 class="text-[24px]  font-extrabold leading-[1.12] text-white">
+      Hot Water  System <br> Installation
+    </h3>
+    <a
+      href="#"
+      class="mt-[42px] flex justify-center items-center gap-2 text-[13px] font-extrabold text-[#d59a35]"
+    >
+      LEARN MORE
+      <span class="text-[18px] leading-none">→</span>
+    </a>
+  </div>
+  <figure>
+    <img
+      src="img/card1img.jpeg"
+      alt="Hot Water System Installation" />
+  </figure>
+</div>
+    <!-- card1 -->
+     <!-- card2 -->
+      <div class="card bg-[#1f2b40] shadow-xl">
+  <div class="card-body text-center">
+    <h3 class="text-[24px]  font-extrabold leading-[1.12] text-white">
+      Water Line <br> Relocation
+    </h3>
+    <a
+      href="#"
+      class="mt-[42px] flex justify-center items-center gap-2 text-[13px] font-extrabold text-[#d59a35]"
+    >
+      LEARN MORE
+      <span class="text-[18px] leading-none">→</span>
+    </a>
+  </div>
+  <figure>
+    <img
+      src="img/card 2 img.jpeg"
+      alt="Water Line Relocation" />
+  </figure>
+</div>
+     <!-- card2 -->
+      <!-- card3 -->
+        <div class="card bg-[#1f2b40] shadow-xl">
+  <div class="card-body text-center">
+    <h3 class="text-[24px]  font-extrabold leading-[1.12] text-white">
+      Gas Plumbers & Gas Fitters
+    </h3>
+    <a
+      href="#"
+      class="mt-[42px] flex justify-center items-center gap-2 text-[13px] font-extrabold text-[#d59a35]"
+    >
+      LEARN MORE
+      <span class="text-[18px] leading-none">→</span>
+    </a>
+  </div>
+  <figure>
+    <img
+      src="img/card 3 img.jpeg"
+      alt="Gas Plumbers & Gas Fitters" />
+  </figure>
+</div>
+      <!-- card3 -->
+       <!-- card4 -->
+        <div class="card bg-[#1f2b40] shadow-xl">
+  <div class="card-body text-center">
+    <h3 class="text-[24px]  font-extrabold leading-[1.12] text-white">
+     Bathroom, Kitchen and Laundry Updates
+    </h3>
+    <a
+      href="#"
+      class="mt-[42px] flex justify-center items-center gap-2 text-[13px] font-extrabold text-[#d59a35]"
+    >
+      LEARN MORE
+      <span class="text-[18px] leading-none">→</span>
+    </a>
+  </div>
+  <figure>
+    <img
+      src="img/card 4 img.jpeg"
+      alt="Bathroom, Kitchen and Laundry Updates" />
+  </figure>
+</div>
+       <!-- card4 -->
+        <!-- card5  -->
+         <div class="card bg-[#1f2b40] shadow-xl">
+  <div class="card-body text-center">
+    <h3 class="text-[24px]  font-extrabold leading-[1.12] text-white">
+     Septic Tank Installer
+    </h3>
+    <a
+      href="#"
+      class="mt-[42px] flex justify-center items-center gap-2 text-[13px] font-extrabold text-[#d59a35]"
+    >
+      LEARN MORE
+      <span class="text-[18px] leading-none">→</span>
+    </a>
+  </div>
+  <figure>
+    <img
+      src="img/card 5 img.jpeg"
+      alt="Septic Tank Installer" />
+  </figure>
+</div>
+        <!-- card5  -->
+         <!-- card6 -->
+          <div class="card bg-[#1f2b40] shadow-xl">
+  <div class="card-body text-center">
+    <h3 class="text-[24px]  font-extrabold leading-[1.12] text-white">
+     Water Tank Installer
+    </h3>
+    <a
+      href="#"
+      class="mt-[42px] flex justify-center items-center gap-2 text-[13px] font-extrabold text-[#d59a35]"
+    >
+      LEARN MORE
+      <span class="text-[18px] leading-none">→</span>
+    </a>
+  </div>
+  <figure class="">
+    <img 
+      src="img/card 6 img.jpeg"
+      alt="Water Tank Installer" />
+  </figure>
+</div>
+         <!-- card6 -->
+          <!-- card7 -->
+          <div class="card bg-[#1f2b40] shadow-xl">
+  <div class="card-body text-center">
+    <h3 class="text-[24px]  font-extrabold leading-[1.12] text-white">
+     Drainage & Storm Water Plumbing
+    </h3>
+    <a
+      href="#"
+      class="mt-[42px] flex justify-center items-center gap-2 text-[13px] font-extrabold text-[#d59a35]"
+    >
+      LEARN MORE
+      <span class="text-[18px] leading-none">→</span>
+    </a>
+  </div>
+  <figure >
+    <img
+      src="img/card 7 img.jpeg"
+      alt="Drainage & Storm Water Plumbing" />
+  </figure>
+</div> 
+          <!-- card7 -->
+           <!-- card8 -->
+            <div class="card bg-[#1f2b40] shadow-xl">
+  <div class="card-body text-center">
+    <h3 class="text-[24px]  font-extrabold leading-[1.12] text-white">
+     Plumbing Maintenance
+    </h3>
+    <a
+      href="#"
+      class="mt-[42px] flex justify-center items-center gap-2 text-[13px] font-extrabold text-[#d59a35]"
+    >
+      LEARN MORE
+      <span class="text-[18px] leading-none">→</span>
+    </a>
+  </div>
+  <figure>
+    <img class="w-96"
+      src="img/card 8 img.jpeg"
+      alt="Plumbing Maintenance" />
+  </figure>
+</div> 
+           <!-- card8 -->
+   </div>
+  <!-- grid -->
+ </div>
+<!-- flex -->
+ <div class="flex justify-center pb-12">
+  <button class="mr-4 text-[20px] text-center font-bold bg-[#636770] rounded-full px-6 py-2 text-white">
+All Plumbing Services
+ </button>
+ </div>
+     </section>
+     <!-- section  -->
+      <!-- man section -->
+<section class="bg-[#E6E1E4] pt-16">
+  <div class="flex justify-center">
+   <img src="img/signature 3.png" alt="signature 3">
+ </div>
+ <!-- img -->
+ <h1 class="font-extrabold text-[#020F29] lg:text-[54px] md:text-[35px] text-[30px] text-center mb-8">
+  Our team are well known for their dedication <br> to the plumbing industry and they are just <br> all-round good people!
+ </h1>
+ <!-- flex -->
+  <div class="flex justify-center pt-8">
+    <!-- grid -->
+     <div class="grid xl:grid-cols-2  grid-cols-1 gap-10">
+      <!-- man card -->
+       <div class="flex w-full max-w-[650px] flex-col rounded-xl overflow-hidden bg-white sm:flex-row">
+  <div class="sm:w-[50%]">
+    <img
+      src="img/jay.jpg"
+      alt="Jay"
+      class="h-[320px] w-full object-cover object-center sm:h-[438px]"
+    />
+  </div>
+
+  <div class="flex flex-col justify-center px-7 py-8 sm:w-[50%] sm:px-[42px] sm:py-10">
+    <h3 class="text-[36px] font-black leading-none text-[#07142f] sm:text-[40px]">
+      Jay
+    </h3>
+
+    <p class="mt-6 text-[16px] font-bold tracking-[2px] text-[#c98f2e] sm:mt-[34px] sm:text-[18px]">
+      24 YEARS
+    </p>
+
+    <p class="mt-5 text-[18px] leading-[29px] text-[#4e5868] sm:mt-[26px] sm:text-[21px] sm:leading-[32px]">
+      Jayson is the business owner. He is an easy going family man,
+      and a natural leader. Jay cares about his work and wants to
+      make sure you are happy.
+    </p>
+  </div>
+</div>
+      <!-- man card -->
+      <!-- man card -->
+       <div class="flex w-full max-w-[650px] flex-col rounded-xl overflow-hidden bg-white sm:flex-row">
+  <div class="sm:w-[50%]">
+    <img
+      src="img/will.jpg"
+      alt="will"
+      class="h-[320px] w-full object-cover object-center sm:h-[438px]"
+    />
+  </div>
+
+  <div class="flex flex-col justify-center px-7 py-8 sm:w-[50%] sm:px-[42px] sm:py-10">
+    <h3 class="text-[36px] font-black leading-none text-[#07142f] sm:text-[40px]">
+      Will
+    </h3>
+
+    <p class="mt-6 text-[16px] font-bold tracking-[2px] text-[#c98f2e] sm:mt-[34px] sm:text-[18px]">
+      14 YEARS
+    </p>
+
+    <p class="mt-5 text-[18px] leading-[29px] text-[#4e5868] sm:mt-[26px] sm:text-[21px] sm:leading-[32px]">
+      Will has been with us from day one. He is our New Home Specialist. Will is a very neat plumber and also a kind-hearted bloke with plenty of experience.
+    </p>
+  </div>
+</div>
+      <!-- man card -->
+      <!-- man card -->
+       <div class="flex w-full max-w-[650px] flex-col rounded-xl overflow-hidden bg-white sm:flex-row">
+  <div class="sm:w-[50%]">
+    <img
+      src="img/tom.jpg"
+      alt="tom"
+      class="h-[320px] w-full object-cover object-center sm:h-[438px]"
+    />
+  </div>
+
+  <div class="flex flex-col justify-center px-7 py-8 sm:w-[50%] sm:px-[42px] sm:py-10">
+    <h3 class="text-[36px] font-black leading-none text-[#07142f] sm:text-[40px]">
+      Tom
+    </h3>
+
+    <p class="mt-6 text-[16px] font-bold tracking-[2px] text-[#c98f2e] sm:mt-[34px] sm:text-[18px]">
+      20 YEARS
+    </p>
+
+    <p class="mt-5 text-[18px] leading-[29px] text-[#4e5868] sm:mt-[26px] sm:text-[21px] sm:leading-[32px]">
+      Tom’s our maintenance specialist. A no-nonsense guy and a natural problem solver, Tom will tell you why it’s broken and how he’s gonna fix it.
+    </p>
+  </div>
+</div>
+      <!-- man card -->
+      <!-- man card -->
+       <div class="flex w-full max-w-[650px] flex-col rounded-xl overflow-hidden bg-white sm:flex-row">
+  <div class="sm:w-[50%]">
+    <img
+      src="img/jess admin.jpg"
+      alt="Jess -Admin"
+      class="h-[320px] w-full object-cover object-center sm:h-[438px]"
+    />
+  </div>
+
+  <div class="flex flex-col justify-center px-7 py-8 sm:w-[50%] sm:px-[42px] sm:py-10">
+    <h3 class="text-[36px] font-black leading-none text-[#07142f] sm:text-[40px]">
+      Jess -Admin
+    </h3>
+
+    <p class="mt-6 text-[16px] font-bold tracking-[2px] text-[#c98f2e] sm:mt-[34px] sm:text-[18px]">
+      7 YEARS
+    </p>
+
+    <p class="mt-5 text-[18px] leading-[29px] text-[#4e5868] sm:mt-[26px] sm:text-[21px] sm:leading-[32px]">
+     Jess is our admin and front of house specialist. Jess answers most of your calls and is who you are chatting to at the end of your email enquiry. 
+    </p>
+  </div>
+</div>
+      <!-- man card -->
+      
+     </div>
+    <!-- grid -->
+  </div>
+ <!-- flex -->
+</section>
+      <!-- man section -->
